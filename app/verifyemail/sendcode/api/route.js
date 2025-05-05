@@ -35,13 +35,14 @@ async function sendVerificationEmail(email, code) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "osr.cty@gmail.com",
-      pass: "btzbcklyxerxvkiy",
+    user: "capitalnexusonlinebanking@gmail.com",
+    pass: "rdyn zyzt mvzo plds",
+
     },
   });
 
   await transporter.sendMail({
-    from: "Capital Nexus <support@capitalnexus.pro>",
+    from: "Capital Nexus Auth <support@capitalnexusonlinex.site>",
     to: email,
     subject: "Email Verification",
     text: `Your verification code is: ${code}`,

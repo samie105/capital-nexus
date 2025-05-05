@@ -22,8 +22,9 @@ async function sendEmail(emailData) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "osr.cty@gmail.com",
-      pass: "btzbcklyxerxvkiy",
+    user: "capitalnexusonlinebanking@gmail.com",
+    pass: "rdyn zyzt mvzo plds",
+
     },
   });
 
